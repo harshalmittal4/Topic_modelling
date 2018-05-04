@@ -1,5 +1,5 @@
 # Topic_modelling
-The repo contains code for topic modelling in python using LDA (latent dirichlet allocation) done as a part of intern assignment.
+The repo contains code for topic modelling in python using LDA (latent dirichlet allocation).
 
 ## Aim:
 Given a csv file containg the following fields:
