@@ -10,6 +10,8 @@ Given a csv file containg the following fields:
 we have to extract skills (or important keywords) from each of the job titles.
 i.e. in the dataframe, a new column is to be added which contains the important skills for the job described in the respective rows.
 
+As an initial try, the model is trained on kaggle dataset Tweeets.csv in which the 'text' column represents the Jb description column for the original problem.
+
 ## Steps :
 ### For each job description:
 A corpus(list of documents) is created and it is cleaned using nltk (removing stopwords, punctuation, slang).
@@ -24,6 +26,8 @@ Output for a topic is being taken as the most probable word under that topic her
 
 ### Number of topics for a job description :
 It is taken as the length of corpus; and so we have those many words (skills) extracted for some job description.
+
+
 
 
 
