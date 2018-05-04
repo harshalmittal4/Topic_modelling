@@ -10,7 +10,7 @@ Given a csv file containg the following fields:
    
 we have to extract skills (or important keywords) from each of the job titles; basically, in the dataframe, a new column is to be added which contains the important skills for the job described in the respective rows.
 
-As an initial try, the model is trained on kaggle dataset Tweeets.csv in which the 'text' column represents the Job description column for the original problem from which topics(skills) will be extracted.
+As an initial try, the model is trained on kaggle dataset Tweeets.csv in which the 'text' column represents the 'Job description' column for the original problem from which topics(skills) will be extracted.
 
 ## Steps :
 ### For each job description:
